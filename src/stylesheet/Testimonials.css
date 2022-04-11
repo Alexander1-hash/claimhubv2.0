@@ -1,0 +1,89 @@
+.testimonials-wrapper {
+  background-color: #4148f5;
+  padding: 5rem;
+}
+
+.testimonial-title-area {
+  padding-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.testimonial-title-area > h1 {
+  text-decoration: underline;
+  margin-bottom: 1.5rem;
+}
+
+.reviewer-logos {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.trustpilot-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trustpilot-logo > img {
+  width: 100%;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.google-logo > img {
+  width: 100%;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.testimonial-cards {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 33px;
+  grid-row-gap: 0px;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.testimonial-name {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.testimonial:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+.swiper-button-prev {
+  color: red;
+}
+
+.swiper-button-next {
+  color: #000;
+}
