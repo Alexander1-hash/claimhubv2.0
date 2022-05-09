@@ -1,0 +1,35 @@
+.loans-container {
+  background-color: #80b8fe;
+}
+.loans-info {
+  margin: 0 10%;
+  padding: 5rem 0;
+  color: white;
+}
+.loans-title {
+  padding: 2rem 0;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loans-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.loans-text > p {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.loans-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loans-img > img {
+  width: 20rem;
+  height: 20rem;
+}

@@ -10,10 +10,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { useScroll } from "./components/useScroll"
 
 function Testimonials() {
+    const [element, controls] = useScroll();
     return (
-        <div className="testimonials-container">
+        <div className="testimonials-container" ref={element}>
             <div className="testimonials-wrapper">
                 <div className="testimonial-title-area">
                     <h1>Testimonials</h1>

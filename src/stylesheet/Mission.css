@@ -1,5 +1,5 @@
 .mission-container {
-  background-color: #4148f5;
+  background-color: #80b8fe;
 }
 .mission-wrapper {
   padding: 5rem;
@@ -35,16 +35,19 @@
 
 .mission-content > button {
   margin-top: 2rem;
-  background-color: #44c767;
+  background-color: #80b8fe;
   border-radius: 0.5rem;
-  border: 1px solid #18ab29;
+  border: 1px solid white;
   display: inline-block;
   cursor: pointer;
   color: #fff;
   font-size: 17px;
   padding: 10px 20px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
+}
+.mission-content > button:hover {
+  background-color: white;
+  color: #80b8fe;
 }
 .mission-image > img {
   width: 100%;

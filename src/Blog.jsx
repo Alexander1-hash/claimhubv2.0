@@ -2,17 +2,24 @@ import React from "react";
 import fly from "./assets/fly.jpeg"
 import "./stylesheet/Blog.css"
 
+
 function Blog() {
+
     return (
-        <div className="blog-container">
+
+
+        <div className="blog-container" id="blog">
+
             <div className="blog-wrapper">
                 <div className="blog-title-section">
+
                     <div className="blog-title">
                         <h1>Articles</h1>
                     </div>
-                    <div className="blog-paragraph">
+
+                    {/* <div className="blog-paragraph">
                         <p>Have a read yourself on some of the articles and insights</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="blog-card-area">
@@ -45,7 +52,9 @@ function Blog() {
 
                 </div>
             </div>
+
         </div>
+
     )
 }
 

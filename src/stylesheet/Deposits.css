@@ -1,0 +1,45 @@
+.deposits-container {
+  margin: 0 10%;
+  padding: 5rem 0;
+}
+.deposits-container .deposits-info .deposits-section1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.deposits-container .deposits-info .deposits-section1 .deposits-title {
+  display: flex;
+  justify-content: center;
+}
+.deposits-container .deposits-info .deposits-section1 .deposits-img {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+}
+.deposits-container .deposits-info .deposits-section1 .deposits-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.deposits-container .deposits-info .deposits-section2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+.deposits-container .deposits-info .deposits-section2 .deposits-title {
+  display: flex;
+  justify-content: center;
+}
+.deposits-container .deposits-info .deposits-section2 .deposits-img {
+  display: flex;
+  justify-content: center;
+  height: 25rem;
+  width: 25rem;
+}
+.deposits-container .deposits-info .deposits-section2 .deposits-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}

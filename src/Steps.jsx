@@ -4,13 +4,14 @@ import { FaFlagCheckered, FaRegHandshake, FaRegComments } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si"
 import { BsFileEarmarkCheck } from "react-icons/bs"
 import { BiFileFind } from "react-icons/bi"
-
+import { useScroll } from "./components/useScroll"
 
 import "./stylesheet/Steps.css"
 
 function Steps() {
+    const [element, controls] = useScroll();
     return (
-        <div className="steps-container">
+        <div className="steps-container" ref={element}>
             <div className="steps-wrapper">
                 <div className="steps-content">
                     <div className="steps-title">
@@ -23,7 +24,7 @@ function Steps() {
                                 <FaFlagCheckered size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Select your claim type</p>
+                                <p>Select claim type</p>
                             </div>
                         </div>
                         <div className="step-box step-2">
@@ -31,7 +32,7 @@ function Steps() {
                                 <SiMinutemailer size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Submit required information</p>
+                                <p>Submit requested info</p>
                             </div>
                         </div>
                         <div className="step-box step-3">
@@ -39,7 +40,7 @@ function Steps() {
                                 <BsFileEarmarkCheck size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Review your information</p>
+                                <p>Review submitted info</p>
                             </div>
                         </div>
                         <div className="step-box step-4">
@@ -47,14 +48,14 @@ function Steps() {
                                 <FaRegHandshake size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Submit claim for you</p>
+                                <p>Submit claim on your behalf</p>
                             </div>
                         </div><div className="step-box step-5">
                             <div className="step-icon">
                                 <FaRegComments size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Maintina communication</p>
+                                <p>Ongoing communication</p>
                             </div>
                         </div>
                         <div className="step-box step-6">
@@ -62,7 +63,7 @@ function Steps() {
                                 <BiFileFind size={42} />
                             </div>
                             <div className="step-text">
-                                <p>Identify your credit</p>
+                                <p>Credit identified</p>
                             </div>
                         </div>
                         <div className="step-box step-7">

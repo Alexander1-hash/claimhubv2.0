@@ -1,0 +1,35 @@
+.fees-container {
+  background-color: #80b8fe;
+}
+.fees-info {
+  margin: 0 10%;
+  padding: 5rem 0;
+  color: white;
+}
+.fees-title {
+  padding: 2rem 0;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fees-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fees-text > p {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.fees-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fees-img > img {
+  width: 20rem;
+  height: 20rem;
+}
