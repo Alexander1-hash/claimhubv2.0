@@ -87,3 +87,9 @@
 .swiper-button-next {
   color: #000;
 }
+
+@media screen and (min-width: 900px) {
+  .swiper-container {
+    width: 900px;
+  }
+}

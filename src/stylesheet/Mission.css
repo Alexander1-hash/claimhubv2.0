@@ -53,3 +53,18 @@
   width: 100%;
   border-radius: 25px;
 }
+
+@media screen and (max-width: 980px) {
+  .mission-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mission-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

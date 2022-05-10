@@ -49,9 +49,20 @@ function Testimonials() {
                     navigation
                     pagination={{ clickable: true }}
                     spaceBetween={20}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}>
+                    onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{
+                        // when window width is >= 640px
+
+
+                        // when window width is >= 768px
+                        900: {
+                            width: 900,
+                            slidesPerView: 3,
+                        },
+                    }}
+                >
 
 
 

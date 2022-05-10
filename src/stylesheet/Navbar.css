@@ -184,13 +184,9 @@ a {
   background-size: cover;
 }
 /* responsive */
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 320px) and (max-width: 1120px) {
   .nav {
     display: none;
-  }
-
-  .header .header-main {
-    display: flex;
   }
 
   .header .open-nav-menu {
@@ -199,6 +195,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    padding: 5px 0;
   }
   .navbar.active > .nav {
     display: flex;

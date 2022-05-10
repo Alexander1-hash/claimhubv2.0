@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillStar } from 'react-icons/ai'
-import Dashboard from "../assets/dashboard.png"
+import Dashboard from "../assets/data.svg"
 import edf from "../assets/edf.png"
 import bt from "../assets/bt.png"
 import thamewater from "../assets/water.png"
