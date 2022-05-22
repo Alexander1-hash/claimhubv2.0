@@ -24,7 +24,7 @@ const EvidenceForm = () => {
 
   // Submit it on Backend which is on
 
-  const FormTitles = ["personal info", "Contact Info", "claim info", "other info"];
+  const FormTitles = ["Claim Details", "Case Details", "Terms & Conditions", "other info"];
 
   const PageDisplay = () => {
     if (page === 0) {

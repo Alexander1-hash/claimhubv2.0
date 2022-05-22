@@ -18,7 +18,7 @@
 }
 .hero-title {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 25px;
 }
@@ -38,7 +38,7 @@
 
 .hero-info > p {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   margin-top: 0.75rem;
   font-size: 1.25rem;
@@ -57,7 +57,7 @@
   cursor: pointer;
   color: #fff;
 
-  font-size: 20px;
+  font-size: 15px;
   padding: 14px 40px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
@@ -138,7 +138,7 @@
 }
 
 @media screen and (max-width: 830px) {
-  .hero-info > p {
+  .hero-title > p {
     display: flex;
     flex-direction: column;
     justify-content: center;

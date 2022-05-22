@@ -57,8 +57,8 @@ function Testimonials() {
 
 
                         // when window width is >= 768px
-                        900: {
-                            width: 900,
+                        1000: {
+                            width: 1000,
                             slidesPerView: 3,
                         },
                     }}
@@ -156,7 +156,20 @@ function Testimonials() {
                                 </div>
                             </div>
                         </SwiperSlide>
-
+                        <SwiperSlide>
+                            <div className="testimonial">
+                                <div className="testimonial-text">
+                                    <FaQuoteLeft />
+                                    Gatsby believed in the green light, the orgastic future that year by year recedes before us.
+                                    It eluded us then, but that’s no matter — tomorrow we will run faster, stretch our arms further...
+                                    And one fine morning — So we beat on, boats against the current, borne back ceaselessly into the past.
+                                    < FaQuoteRight />
+                                </div>
+                                <div className="testimonial-name">
+                                    <h3>Jon doe</h3>
+                                </div>
+                            </div>
+                        </SwiperSlide>
                     </div>
 
 

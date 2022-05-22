@@ -25,7 +25,16 @@ function Footer() {
                         <div className="footer-logo">
                             CLAIMHUB
                         </div>
-                        <p>
+                        <ul>
+                            <li>
+                                <a href="/">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="/">Privacy Policy</a>
+                            </li>
+                        </ul>
+
+                        {/* <p>
                             Join our newsletter to get updated with our Offers & Discounts.
                         </p>
                         <div className="mail">
@@ -33,7 +42,7 @@ function Footer() {
                             <button>
                                 <AiOutlineSend />
                             </button>
-                        </div>
+                        </div> */}
                     </motion.div>
                     <motion.div
                         className="quick-links"
@@ -41,32 +50,21 @@ function Footer() {
                         animate={controls}
                         transition={{ duration: 0.5 }}
                     >
-                        <h3>Quick Links</h3>
+                        <h3>Claim Types</h3>
                         <ul>
                             <li>
-                                <a href="/">About</a>
+                                <a href="/">Business Rates</a>
                             </li>
                             <li>
-                                <a href="/">Testimonial</a>
+                                <a href="/">Council Tax</a>
                             </li>
                             <li>
-                                <a href="/">Contact Us</a>
+                                <a href="/">Student Loans</a>
                             </li>
                             <li>
-                                <a href="/">Portfolio</a>
+                                <a href="/">Utilities</a>
                             </li>
-                            <li>
-                                <a href="/">Career</a>
-                            </li>
-                            <li>
-                                <a href="/">Blog</a>
-                            </li>
-                            <li>
-                                <a href="/">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a href="/">Privacy Policy</a>
-                            </li>
+
                         </ul>
                     </motion.div>
                     <motion.div
@@ -75,23 +73,15 @@ function Footer() {
                         animate={controls}
                         transition={{ duration: 0.5 }}
                     >
-                        <h3>Industires</h3>
+                        <h3>Get Started</h3>
                         <ul>
                             <li>
-                                <a href="/">Energy Provider</a>
+                                <a href="/">Start a claim</a>
                             </li>
                             <li>
-                                <a href="/">Thames Water</a>
+                                <a href="/">Refer a friend</a>
                             </li>
-                            <li>
-                                <a href="/">Council Tax</a>
-                            </li>
-                            <li>
-                                <a href="/">Business Rates</a>
-                            </li>
-                            <li>
-                                <a href="/">Tenant deposit</a>
-                            </li>
+
 
 
                         </ul>
@@ -110,18 +100,7 @@ function Footer() {
                             <div className="detail">
                                 <div className="detail-name">Email</div>
                                 <div className="detail-content">
-                                    <a href="/">contact@claimhub.com</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="touch-section">
-                            <div className="icon">
-                                <FaPhoneAlt />
-                            </div>
-                            <div className="detail">
-                                <div className="detail-name">Phone</div>
-                                <div className="detail-content">
-                                    <a href="/">+44 7551231231</a>
+                                    <a href="/">info@claimhub.io</a>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +112,7 @@ function Footer() {
                             <div className="detail">
                                 <div className="detail-name">Location</div>
                                 <div className="detail-content">
-                                    <a href="/"> 32 StreetOne Boards, GJ 560123</a>
+                                    <a href="/"> Studio One, 197 Long Lane, London, SE1 4PD</a>
                                 </div>
                             </div>
                         </div>

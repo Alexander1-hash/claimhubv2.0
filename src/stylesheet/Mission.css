@@ -1,5 +1,9 @@
 .mission-container {
   background-color: #80b8fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mission-wrapper {
   padding: 5rem;

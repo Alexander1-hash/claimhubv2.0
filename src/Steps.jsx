@@ -1,10 +1,9 @@
 import React from "react";
-import { RiMoneyPoundCircleFill } from "react-icons/ri";
-import { FaFlagCheckered, FaRegHandshake, FaRegComments } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { SiMinutemailer } from "react-icons/si"
 import { BsFileEarmarkCheck } from "react-icons/bs"
-import { BiFileFind } from "react-icons/bi"
 import { useScroll } from "./components/useScroll"
+import Circle from "./components/Circle";
 
 import "./stylesheet/Steps.css"
 
@@ -20,61 +19,30 @@ function Steps() {
                     </div>
                     < div className="steps-list">
                         <div className="step-box step-1">
-                            <div className="step-icon">
-                                <FaFlagCheckered size={42} />
-                            </div>
+                            <Circle number={1} />
                             <div className="step-text">
-                                <p>Select claim type</p>
+                                <h3>Register</h3>
+                                <p>Simply register for free by completing our application form</p>
                             </div>
                         </div>
                         <div className="step-box step-2">
-                            <div className="step-icon">
-                                <SiMinutemailer size={42} />
-                            </div>
+                            <Circle number={2} />
                             <div className="step-text">
-                                <p>Submit requested info</p>
+                                <h3>Claim</h3>
+                                <p>We submit the claim on your behalf to identify any monies owed</p>
                             </div>
                         </div>
                         <div className="step-box step-3">
-                            <div className="step-icon">
-                                <BsFileEarmarkCheck size={42} />
-                            </div>
+                            <Circle number={3} />
+
                             <div className="step-text">
-                                <p>Review submitted info</p>
-                            </div>
-                        </div>
-                        <div className="step-box step-4">
-                            <div className="step-icon">
-                                <FaRegHandshake size={42} />
-                            </div>
-                            <div className="step-text">
-                                <p>Submit claim on your behalf</p>
-                            </div>
-                        </div><div className="step-box step-5">
-                            <div className="step-icon">
-                                <FaRegComments size={42} />
-                            </div>
-                            <div className="step-text">
-                                <p>Ongoing communication</p>
-                            </div>
-                        </div>
-                        <div className="step-box step-6">
-                            <div className="step-icon">
-                                <BiFileFind size={42} />
-                            </div>
-                            <div className="step-text">
-                                <p>Credit identified</p>
-                            </div>
-                        </div>
-                        <div className="step-box step-7">
-                            <div className="step-icon">
-                                <RiMoneyPoundCircleFill size={42} />
-                            </div>
-                            <div className="step-text">
-                                <p>Pay you</p>
+                                <h3>Get Paid</h3>
+                                <p>Once we have established money is being held on accound,
+                                    we will recover the money and pay you!</p>
                             </div>
                         </div>
                     </div>
+                    <div className="step-claim-btn"><button>START YOUR CLAIM</button></div>
                 </div>
             </div>
         </div>

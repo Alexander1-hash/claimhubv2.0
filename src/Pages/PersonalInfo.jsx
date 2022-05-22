@@ -1,32 +1,19 @@
 import React from 'react'
 
-function PersonalInfo({formData, setFormData}) {
-  return ( 
+function PersonalInfo({ formData, setFormData }) {
+  return (
     <div className="personal-info-container">
-      <input
-        type="text"
-        placeholder="First Name..."
-        value={formData.firstName}
-        onChange={(e) => {
-          setFormData({ ...formData, firstName: e.target.value });
-        }}
-      />
-      <input
-        type="text"
-        placeholder="Last Name..."
-        value={formData.lastName}
-        onChange={(e) => {
-          setFormData({ ...formData, lastName: e.target.value });
-        }}
-      />
-      <input
-        type="text"
-        placeholder="Username..."
-        value={formData.username}
-        onChange={(e) => {
-          setFormData({ ...formData, username: e.target.value });
-        }}
-      />
+      <p>Who is your claim with ?</p>
+      <select onChange={(e) => {
+        setFormData({ ...formData, firstName: e.target.value });
+      }} name="cars" id="cars">
+        <option value={formData.firstName}> council</option>
+        <option value={formData.firstName}>energy provider</option>
+        <option value={formData.firstName}>student loans</option>
+        <option value={formData.firstName}>other</option>
+
+      </select>
+
     </div>
   )
 }

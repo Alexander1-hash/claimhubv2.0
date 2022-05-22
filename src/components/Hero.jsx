@@ -19,7 +19,7 @@ function Hero() {
                     </div>
                     <p>ClaimHub is a digital solution that helps you recalim money you could be owed.</p>
                     <div className="hero-btns">
-                        <button className="green-btn">Start Claim</button>
+                        <button className="green-btn">START YOUR CLAIM</button>
                     </div>
 
                 </div>

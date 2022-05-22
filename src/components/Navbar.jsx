@@ -51,24 +51,25 @@ function Navbar() {
                                 <li className="menu-item menu-item-has-children">
                                     <a href="#" data-toggle="sub-menu">Types of Claims <i className="plus"></i></a>
                                     <ul className="sub-menu">
-                                        <li className="menu-item"><a href="/thameswater">Utilities</a></li>
+                                        <li className="menu-item"><a href="/businessrates">Business Rates</a></li>
                                         <li className="menu-item"><a href="/counciltax">Council Tax</a></li>
                                         <li className="menu-item"><a href="/businessrates">Student Loans</a></li>
+                                        <li className="menu-item"><a href="/thameswater">Utilities</a></li>
 
                                     </ul>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="#services">Contact</a>
+                                    <a href="#blog">Blog</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="#blog">Blog</a>
+                                    <a href="#services">Contact</a>
                                 </li>
                                 <li className="menu-item">
                                     <a className='referal' href="#">Refer A Friend</a>
                                 </li>
 
                                 <li className="menu-item">
-                                    <a href='/form'><button className='menu-green-btn'>Start Claim</button></a>
+                                    <a href='/form'><button className='menu-green-btn'>START YOUR CLAIM</button></a>
                                 </li>
 
                             </ul>

@@ -1,13 +1,12 @@
 .footer-container {
-  background-color: #333335;
+  background-color: #505050;
   color: white;
   min-height: 55vh;
   height: fit-content;
-  padding: 8rem 0;
+  padding: 2.5rem 0;
 }
 .footer-container .footermain-container {
   margin: 0 10%;
-  padding-top: 2.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
