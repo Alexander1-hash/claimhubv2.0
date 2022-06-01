@@ -15,9 +15,9 @@ function Hero() {
             <div className="hero-content">
                 <div className="hero-info">
                     <div className="hero-title">
-                        <h1>Could you be owed money?</h1>
+                        <h1>Could you be owed money.<br /> Need help with claims?</h1>
                     </div>
-                    <p>ClaimHub is a digital solution that helps you recalim money you could be owed.</p>
+                    <p>ClaimHub is a digital solution that helps you recalim money you could be owed. Fast and reliable service, tailored to you.</p>
                     <div className="hero-btns">
                         <button className="green-btn">START YOUR CLAIM</button>
                     </div>
@@ -31,21 +31,15 @@ function Hero() {
             <div className="hero-reviews">
                 <div className="star-reviews">
                     <div className="star-label"><h2>Trusted By You</h2></div>
-                    <div className="stars">
-                        <div className="star-images"> <AiFillStar /></div>
-                        <div className="star-images"> <AiFillStar /></div>
-                        <div className="star-images"> <AiFillStar /></div>
-                        <div className="star-images"> <AiFillStar /></div>
-                        <div className="star-images"> <AiFillStar /></div>
-                    </div>
-
                 </div>
-                {/* <div className="partner-logos">
-                    <img src={southwark} alt="" />
-                    <img src={edf} alt="" />
-                    <img src={bt} alt="" />
-                    <img src={thamewater} alt="" />
-                </div> */}
+                <div className="stars">
+                    <div className="company1">British Gas</div>
+                    <div className="company2">SSE</div>
+                    <div className="company3">Student Loan Company</div>
+                    <div className="company4">London Borough of lewisham</div>
+                    <div className="company5">Royal Borough of Greenwhich</div>
+                    <div className="company5">Birmingham City Council</div>
+                </div>
             </div>
 
         </div>

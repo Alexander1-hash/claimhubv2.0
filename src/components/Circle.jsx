@@ -5,7 +5,7 @@ function Circle({ number }) {
 
     return (
         <div className="circle">
-            <>{number}</>.
+            <div className="number">{number}.</div>
         </div>
     )
 

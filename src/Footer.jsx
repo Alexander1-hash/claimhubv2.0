@@ -93,6 +93,7 @@ function Footer() {
                         transition={{ duration: 0.5 }}
                     >
                         <h3>Get in Touch</h3>
+
                         <div className="touch-section">
                             <div className="icon">
                                 <MdEmail />
@@ -117,34 +118,43 @@ function Footer() {
                             </div>
                         </div>
                     </motion.div>
+                    <motion.div
+                        className="icon-section"
+                        variants={fromDown}
+                        animate={controls}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <div className="icons">
+                            <div className="icon">
+                                <a href="/">
+                                    <FaFacebookF />
+                                </a>
+                            </div>
+                            <div className="icon">
+                                <a href="/">
+                                    <AiFillInstagram />
+                                </a>
+                            </div>
+                            <div className="icon">
+                                <a href="/">
+                                    <AiFillLinkedin />
+                                </a>
+                            </div>
+                            <div className="icon">
+                                <a href="/">
+                                    {" "}
+                                    <FaTwitter />
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
                 </div>
+
                 <div className="copyright">
                     <div className="copy">
                         <p>Copyright c 2021. All Rights Reserved.</p>
                     </div>
-                    <div className="icons">
-                        <div className="icon">
-                            <a href="/">
-                                <FaFacebookF />
-                            </a>
-                        </div>
-                        <div className="icon">
-                            <a href="/">
-                                <AiFillInstagram />
-                            </a>
-                        </div>
-                        <div className="icon">
-                            <a href="/">
-                                <AiFillLinkedin />
-                            </a>
-                        </div>
-                        <div className="icon">
-                            <a href="/">
-                                {" "}
-                                <FaTwitter />
-                            </a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

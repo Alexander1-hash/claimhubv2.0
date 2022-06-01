@@ -1,10 +1,10 @@
 .fees-container {
-  background-color: #80b8fe;
+  background-color: white;
 }
 .fees-info {
   margin: 0 10%;
   padding: 5rem 0;
-  color: white;
+  color: #80b8fe;
 }
 .fees-title {
   padding: 2rem 0;
@@ -18,9 +18,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  margin: 0 10rem;
 }
 .fees-text > p {
-  font-size: 20px;
+  font-size: 16px;
   margin: 5px;
 }
 

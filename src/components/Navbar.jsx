@@ -21,24 +21,25 @@ function Navbar() {
             transition={{ delay: 0.1 }}
         >
             <header className="header">
-                <div className="dropdown-wrapper">
-                    <div className="header-main">
-                        <div className="logo">
-                            {toggleNavbar ? "" : <a href="/"><BrandName /></a>}
 
-                        </div>
-                        <div className="open-nav-menu">
+                <div className="header-main">
+                    <div className="logo">
+                        {toggleNavbar ? "" : <a href="/"><BrandName /></a>}
 
-                            {!toggleNavbar ? (
-                                <GiHamburgerMenu onClick={navbarToggler} />
-                            ) : (
-                                <MdClose onClick={navbarToggler} />
-                            )}
-                            {toggleNavbar ? <BurgerBar /> : ""}
-                        </div>
+                    </div>
+                    <div className="open-nav-menu">
 
-                        <nav className="nav">
-                            <ul className="menu">
+                        {!toggleNavbar ? (
+                            <GiHamburgerMenu onClick={navbarToggler} />
+                        ) : (
+                            <MdClose onClick={navbarToggler} />
+                        )}
+                        {toggleNavbar ? <BurgerBar /> : ""}
+                    </div>
+
+                    <nav className="nav">
+                        <ul className="menu">
+                            <div className="menu item nav-left">
                                 <li className="menu-item menu-item-has-children">
                                     <a href="#about" data-toggle="sub-menu">Who are ClaimHub <i className="plus"></i></a>
                                     <ul className="sub-menu">
@@ -64,20 +65,21 @@ function Navbar() {
                                 <li className="menu-item">
                                     <a href="#services">Contact</a>
                                 </li>
-                                <li className="menu-item">
-                                    <a className='referal' href="#">Refer A Friend</a>
-                                </li>
+                            </div>
+                            <li className="menu-item">
+                                <a className='referal' href="#">Refer A Friend</a>
+                            </li>
 
-                                <li className="menu-item">
-                                    <a href='/form'><button className='menu-green-btn'>START YOUR CLAIM</button></a>
-                                </li>
+                            <li className="menu-item">
+                                <a href='/form'><button className='menu-green-btn'>START YOUR CLAIM</button></a>
+                            </li>
 
-                            </ul>
+                        </ul>
 
-                        </nav>
+                    </nav>
 
-                    </div>
                 </div>
+
             </header>
         </motion.div>
     )

@@ -37,8 +37,7 @@ function Steps() {
 
                             <div className="step-text">
                                 <h3>Get Paid</h3>
-                                <p>Once we have established money is being held on accound,
-                                    we will recover the money and pay you!</p>
+                                <p>Once we have established money is being<br /> held on your account,we will recover the money and pay you!</p>
                             </div>
                         </div>
                     </div>

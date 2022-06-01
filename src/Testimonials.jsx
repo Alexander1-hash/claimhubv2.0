@@ -33,16 +33,6 @@ function Testimonials() {
                                 <AiFillStar color="white" />
                             </div>
                         </div>
-
-                        <div className="google-logo">
-                            <img src={google} alt="googele" />
-                            <div className="google-stars">
-                                <AiFillStar color="white" />
-                                <AiFillStar color="white" />
-                                <AiFillStar color="white" />
-                                <AiFillStar color="white" />
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]}

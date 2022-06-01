@@ -8,7 +8,7 @@
 .footer-container .footermain-container {
   margin: 0 10%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
 }
 .footer-container .footermain-container ul {
@@ -102,12 +102,12 @@
 .footer-container .copyright .copy {
   color: #b5b8b8;
 }
-.footer-container .copyright .icons {
+.footer-container .icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer-container .copyright .icons .icon {
+.footer-container .icons .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,14 +118,14 @@
   margin-left: 0.3rem;
   transition: 0.5s ease-in-out;
 }
-.footer-container .copyright .icons .icon svg {
+.footer-container .icons .icon svg {
   font-size: 1.2rem;
   color: white;
 }
-.footer-container .copyright .icons .icon:hover {
+.footer-container .icons .icon:hover {
   background-color: white;
 }
-.footer-container .copyright .icons .icon:hover svg {
+.footer-container .icons .icon:hover svg {
   color: #2c2c31;
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {

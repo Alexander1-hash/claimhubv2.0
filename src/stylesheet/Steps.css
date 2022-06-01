@@ -18,18 +18,16 @@
 }
 
 .steps-list {
-  margin: 4rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  column-gap: 2rem;
+  padding: 2.5rem;
 }
 
 .step-box {
   display: flex;
-  flex-direction: row;
-  text-align: left;
-  gap: 20px;
+}
+.step-2 {
 }
 
 .step-text {
