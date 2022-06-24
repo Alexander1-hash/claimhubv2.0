@@ -8,7 +8,10 @@ import "../stylesheet/EvidenceForm.css"
 
 
 const EvidenceForm = () => {
+
+  const prevBtn = document.getElementsByClassName("form-prev-btn");
   const [page, setPage] = useState(0);
+
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState({
     email: "",
@@ -21,6 +24,7 @@ const EvidenceForm = () => {
     message: "",
     other: "",
   });
+
 
   // Submit it on Backend which is on
 
@@ -41,8 +45,8 @@ const EvidenceForm = () => {
   return (
     <div className="multistepform">
       <div className="multistepprogressbar">
-        <h1>Evidence Form</h1>
-        <p>Please fill out the form below</p>
+        <h1>Claims Form</h1>
+
       </div>
       <div className="multistepform-container">
         <div className="multistep-header">
@@ -51,16 +55,22 @@ const EvidenceForm = () => {
         </div>
         <div className="multistep-body">{PageDisplay()}</div>
         <div className="multistep-footer">
-          <button
+
+
+          <button className="claim-prev-btn"
             disabled={page === 0}
+
             onClick={() => {
               setPage((currPage) => currPage - 1);
             }}
+
           >
             Prev
           </button>
-          <button
+
+          <button className="form-next-btn"
             onClick={() => {
+
               if (page === FormTitles.length - 1) {
                 alert("FORM SUBMITTED");
                 console.log(formData);

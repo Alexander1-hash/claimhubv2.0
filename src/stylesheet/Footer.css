@@ -128,7 +128,7 @@
 .footer-container .icons .icon:hover svg {
   color: #2c2c31;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 900px) {
   .footer-container .footermain-container {
     grid-template-columns: 1fr;
   }

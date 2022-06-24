@@ -29,16 +29,17 @@ function Hero() {
             </div>
 
             <div className="hero-reviews">
-                <div className="star-reviews">
+                {/* <div className="star-reviews">
                     <div className="star-label"><h2>Trusted By You</h2></div>
-                </div>
+                </div> */}
                 <div className="stars">
-                    <div className="company1">British Gas</div>
-                    <div className="company2">SSE</div>
-                    <div className="company3">Student Loan Company</div>
-                    <div className="company4">London Borough of lewisham</div>
+
                     <div className="company5">Royal Borough of Greenwhich</div>
-                    <div className="company5">Birmingham City Council</div>
+                    <div className="company2">SSE</div>
+                    <div className="company4">London Borough of lewisham</div>
+                    <div className="company3">Student Loan Company</div>
+                    <div className="company6">Birmingham City Council</div>
+                    <div className="company1">British Gas</div>
                 </div>
             </div>
 

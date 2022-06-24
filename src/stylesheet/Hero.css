@@ -63,7 +63,7 @@
   color: #fff;
   font-weight: bold;
   font-size: 15px;
-  padding: 14px 40px;
+  padding: 14px 10px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
 }
@@ -90,6 +90,7 @@
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  padding: 1rem;
   gap: 1.25rem;
 }
 
@@ -99,37 +100,42 @@
 .stars {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-  gap: 2rem;
-  padding: 2rem;
-  font-size: 1rem;
+  gap: 3rem;
 }
 
 .company1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Chicle", cursive;
+  font-size: 20px;
 }
 .company2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
 }
 .company3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Fascinate", cursive;
+  font-size: 20px;
 }
 .company4 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 20px;
 }
-.partner-logos {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
+.company5 {
+  font-family: "Titan One", cursive;
+  font-size: 20px;
+}
+.company6 {
+  font-family: "Monoton", cursive;
+  font-size: 20px;
 }
 
-.partner-logos > img {
-  border-radius: 50%;
-  width: 7rem;
-  height: 7rem;
+.hero-reviews {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 @media screen and (max-width: 980px) {
   .hero-image > img {
@@ -146,6 +152,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .hero-title > h1 {
     display: flex;
@@ -158,6 +165,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
   }
   .stars {
     display: grid;
@@ -181,5 +189,15 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hero-title > h1 {
+    font-size: 25px;
+  }
+  .hero-info {
+    text-align: left;
+  }
+  .green-btn {
   }
 }

@@ -6,15 +6,10 @@
   justify-content: center;
   align-items: center;
 }
-.multistepform .multistep-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
-  gap: 2rem;
-}
+
 .multistepform .multistepform-container {
   margin: 5rem;
-  width: 400px;
+  width: 700px;
   height: 700px;
   background-color: white;
   border-radius: 8px;
@@ -36,13 +31,23 @@
   justify-content: center;
   align-items: center;
 }
+
+.multistepform .multistep-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: space-between;
+  /*margin-top: auto;*/
+}
+
 .multistepform .multistep-footer button {
+  gap: 30px;
   background-color: #44c767;
   border-radius: 0.5rem;
   border: 1px solid #18ab29;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 
   cursor: pointer;
   color: #fff;
@@ -50,6 +55,11 @@
   padding: 10px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
+}
+
+.claim-prev-btn {
+  display: flex;
+  justify-content: left;
 }
 .multistepform .multistep-footer button:hover {
   background-color: #2f6627;

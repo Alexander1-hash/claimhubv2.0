@@ -186,7 +186,6 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    padding: 5px 0;
   }
   .navbar.active > .nav {
     display: flex;
