@@ -4,19 +4,24 @@ import "./stylesheet/About.css"
 import { useScroll } from "./components/useScroll"
 
 function About() {
+
+
     const [element, controls] = useScroll();
     return (
         <div className="about-container" ref={element}>
             <div className="about-wrapper">
                 <section className="about-section">
-                    <div className="about-title">
-                        <h1>About us</h1>
-                    </div>
+
                     <div className="about-info">
                         <div className="about-content">
-                            <p>ClaimHub Alliance (CHA) is a digital B2C / B2B platform which identifies unclaimed funds, and reclaims it on behalf of both consumers and businesses. In simple terms, we are a service which assists in putting money back in your pocket.</p>
+                            <div className="about-title">
+                                <h1>CLAIMHUB</h1>
+                            </div>
+                            <p>In simple terms, ClaimHub are a service which identifies overpayments and unclaimed funds from Corporations and Public Bodies. We then assist you in processing the claim(s), taking the headache away from you, and ultimately putting money back into your pocket.</p>
 
-                            <button className="about-btn">Learn More</button>
+                            <p>Now more than ever, given the current economic climate, we are dedicated to helping individuals and businesses, especially when those bodies who are duly bound to refund overpayments and unclaimed funds don't always do so.</p>
+
+                            <a href='/aboutus'><button className="about-btn">About Us</button></a>
                         </div>
                         <div className="about-image"><img src={team} alt="business" /></div>
                     </div>

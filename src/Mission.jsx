@@ -10,12 +10,25 @@ function Mission() {
             <div className="mission-wrapper">
                 <section className="mission-section">
                     <div className="mission-title">
-                        <h1>Our Mission</h1>
+                        <h1>Types of Claim</h1>
                     </div>
                     <div className="mission-info">
                         <div className="mission-content">
-                            <p>ClaimHub digital is a B2C / B2B platform which identifies unclaimed funds, and reclaims it on behalf of both consumers and businesses. In simple terms, we are a service which assists in putting money back in your pocket.</p>
-                            <button className="mission-btn">Learn More</button>
+                            <h2>One stop shop for all of your claims</h2>
+
+                            <p>We manage a number of different claim types for our clients, including the following:</p>
+                            <div className="claimtypes-list">
+                                <ul>
+                                    <li>Council Tax</li>
+                                    <li>Business Rates/NNDR</li>
+                                    <li>Local Authority Fees</li>
+                                    <li>Student Loans</li>
+                                    <li>Utilities</li>
+                                </ul>
+                            </div>
+
+
+                            <a href="/aboutus"><button className="mission-btn">CLAIMHUB</button></a>
                         </div>
                         <div className="mission-image"><img src={target} alt="business" /></div>
                     </div>

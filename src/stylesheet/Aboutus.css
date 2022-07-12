@@ -38,3 +38,11 @@
   width: 20rem;
   height: 20rem;
 }
+@media screen and (max-width: 600px) {
+  .aboutus-text {
+    margin: 0;
+  }
+  .aboutus-text > p {
+    font-size: 25px;
+  }
+}

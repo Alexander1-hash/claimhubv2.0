@@ -18,20 +18,40 @@
 }
 
 .steps-list {
+  width: 100%;
   display: flex;
-  justify-content: left;
-  column-gap: 2rem;
-  padding: 2.5rem;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .step-box {
-  display: flex;
-}
-.step-2 {
+  width: 33.33%;
+  border: 1px solid black;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
 
+.step-box:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.step-body {
+}
 .step-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 0.5rem;
   color: #80b8fe;
+}
+.step-text > p {
+  width: 100%;
 }
 
 .step-claim-btn {

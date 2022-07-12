@@ -11,6 +11,7 @@ function ScrollToTop() {
       setVisible(true);
     } else if (scrolled <= 300) {
       setVisible(false);
+
     }
   };
   const scrollToTop = () => {

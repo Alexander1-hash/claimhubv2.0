@@ -15,9 +15,9 @@ function Hero() {
             <div className="hero-content">
                 <div className="hero-info">
                     <div className="hero-title">
-                        <h1>Could you be owed money.<br /> Need help with claims?</h1>
+                        <h1>Think you could be owed money<br /> and need help with a claim?</h1>
                     </div>
-                    <p>ClaimHub is a digital solution that helps you recalim money you could be owed. Fast and reliable service, tailored to you.</p>
+                    <p>ClaimHub is the one stop shop solution for all claims. Whether it be an overpayment or money you never knew you were entitled to, our mission is to identify money owed to you by Corporations and Public Bodies, and reclaim it on your behalf.</p>
                     <div className="hero-btns">
                         <button className="green-btn">START YOUR CLAIM</button>
                     </div>
@@ -29,9 +29,9 @@ function Hero() {
             </div>
 
             <div className="hero-reviews">
-                {/* <div className="star-reviews">
-                    <div className="star-label"><h2>Trusted By You</h2></div>
-                </div> */}
+                <div className="star-reviews">
+                    <div className="star-label"><h2>SOME OF OUR RECENT CLAIMS</h2></div>
+                </div>
                 <div className="stars">
 
                     <div className="company5">Royal Borough of Greenwhich</div>

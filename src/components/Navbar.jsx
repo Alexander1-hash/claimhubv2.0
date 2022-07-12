@@ -30,9 +30,9 @@ function Navbar() {
                     <div className="open-nav-menu">
 
                         {!toggleNavbar ? (
-                            <GiHamburgerMenu onClick={navbarToggler} />
+                            <GiHamburgerMenu onClick={navbarToggler} color="white" />
                         ) : (
-                            <MdClose onClick={navbarToggler} />
+                            <MdClose onClick={navbarToggler} color="white" />
                         )}
                         {toggleNavbar ? <BurgerBar /> : ""}
                     </div>
@@ -63,7 +63,7 @@ function Navbar() {
                                     <a href="#blog">Blog</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="#services">Contact</a>
+                                    <a href="contact">Contact</a>
                                 </li>
                             </div>
                             <li className="menu-item">

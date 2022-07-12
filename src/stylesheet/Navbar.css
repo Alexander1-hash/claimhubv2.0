@@ -6,7 +6,6 @@
   cursor: pointer;
   color: #fff;
   font-size: 13px;
-  font-weight: bold;
   padding: 10px 10px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
@@ -21,7 +20,7 @@ a {
 }
 /*header*/
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0;
   top: 0;
@@ -35,6 +34,7 @@ a {
   align-items: center;
   padding: 10px 0;
   border-radius: 4px;
+  border-bottom: 0.2px solid lightblue;
 }
 .header .logo {
   padding: 0 15px;
@@ -71,7 +71,7 @@ a {
   font-size: 16px;
   color: white;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: lighter;
   transition: all 0.3s ease;
 }
 .header .menu > .menu-item > a:hover {
@@ -111,7 +111,7 @@ a {
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover {
   background: #e1e1e1;
-  border: 10px #d0d0d0;
+  border: 100px #d0d0d0;
 }
 
 .header .menu > .menu-item > .sub-menu {
@@ -122,11 +122,12 @@ a {
   top: 100%;
   background-color: #fff;
   padding: 10px 0;
-  border-top: 3px solid #3ba563;
+  /* border-top: 3px solid #3ba563; */
   transform: translateY(10px);
   transition: all 0.3s ease;
   opacity: 0;
   visibility: hidden;
+  border-radius: 1rem;
 }
 
 .header .menu > .menu-item-has-children:hover > .sub-menu {
@@ -184,7 +185,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 4rem;
   }
   .navbar.active > .nav {
@@ -201,7 +202,8 @@ a {
   }
 
   .header .nav-menu {
-    position: fixed;
+    right: 15px;
+    position: absolute;
     width: 280px;
     height: 100%;
     top: 0;
@@ -216,7 +218,6 @@ a {
     right: 0px;
   }
   .header .menu > .menu-item {
-    display: block;
     margin: 0;
   }
   .header .menu > .menu-item-has-children > a {

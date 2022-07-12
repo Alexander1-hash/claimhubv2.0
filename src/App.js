@@ -10,6 +10,7 @@ import Provider from "./Pages/Provider";
 import Deposits from "./Pages/Deposits";
 import Tax from "./Pages/Tax";
 import Fees from "./Pages/Fees";
+import Contact from "./Pages/Contact";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/tenantdeposits" element={<Deposits />} />
           <Route path="/counciltax" element={<Tax />} />
           <Route path="/fees" element={<Fees />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

@@ -34,3 +34,11 @@
   width: 20rem;
   height: 20rem;
 }
+@media screen and (max-width: 600px) {
+  .loans-text {
+    margin: 0;
+  }
+  .loans-text > p {
+    font-size: 25px;
+  }
+}

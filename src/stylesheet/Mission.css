@@ -29,15 +29,22 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.claimtypes-list {
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  list-style-type: disc;
 }
 
 .mission-content > p {
   font-size: 20px;
 }
 
-.mission-content > button {
+.mission-btn {
   margin-top: 2rem;
   background-color: #80b8fe;
   border-radius: 0.5rem;
@@ -49,7 +56,7 @@
   padding: 10px 20px;
   text-decoration: none;
 }
-.mission-content > button:hover {
+.mission-btn:hover {
   background-color: white;
   color: #80b8fe;
 }
