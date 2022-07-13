@@ -1,0 +1,15 @@
+.hero-svg {
+  animation: up-and-down 2s ease-in-out forwards infinite alternate;
+}
+
+@keyframes up-and-down {
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .hero-svg {
+    display: none;
+  }
+}

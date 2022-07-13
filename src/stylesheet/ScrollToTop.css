@@ -1,9 +1,9 @@
 .scrollToTop {
-  background-color: #121258;
-  border-radius: 100%;
+  background-color: grey;
+  border-radius: 2px;
   position: fixed;
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   bottom: 40px;
   right: 40px;
   z-index: 2000;
@@ -20,5 +20,5 @@
   background-color: white;
 }
 .scrollToTop:hover svg {
-  color: #121258;
+  color: black;
 }

@@ -32,8 +32,7 @@
   gap: 4rem;
 }
 
-.hero-image > img {
-  width: 100%;
+.hero-image {
   border-radius: 10px;
 }
 .hero-info {

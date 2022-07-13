@@ -27,17 +27,19 @@ html {
 }
 .blog-description {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
 }
-.blog-paragraph {
-  margin-top: 2rem;
-}
+
 .blog-cards {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .blog-card {
@@ -47,18 +49,10 @@ html {
   flex-direction: column;
   gap: 1.5rem;
   border-radius: 10px;
-}
-
-.blog-image > img {
-  width: 200px;
-  height: 200px;
-  width: 100%;
-}
-.blog-card .blog-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 300px;
+  height: 400px;
+  position: relative;
 }
 
 .blog-btn > button {
@@ -71,6 +65,8 @@ html {
   font-size: 17px;
   padding: 10px 20px;
   text-decoration: none;
+  position: absolute;
+  bottom: 10px;
 }
 .blog-btn > button:hover {
   background-color: white;

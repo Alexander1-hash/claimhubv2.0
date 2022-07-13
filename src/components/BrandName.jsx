@@ -1,8 +1,9 @@
 import React from "react";
-import brand from "../assets/aplogo.png"
+import pig from "../assets/pig.svg"
+import SvgPig from "./CustomLogo";
 
 function BrandName() {
-    return <div className="brand"> CLAIMHUB</div>;
+    return <div className="brand"> <SvgPig viewBox="300 180 800 400" width={200} height={50} /></div>;
 }
 
 export default BrandName;

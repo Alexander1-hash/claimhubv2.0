@@ -6,6 +6,7 @@ import bt from "../assets/bt.png"
 import thamewater from "../assets/water.png"
 import southwark from "../assets/Southwark.png"
 import "../stylesheet/Hero.css"
+import SvgData from "./CustomHero";
 
 function Hero() {
 
@@ -24,7 +25,7 @@ function Hero() {
 
                 </div>
                 <div className="hero-image">
-                    <img src={Dashboard} alt="#" />
+                    <SvgData viewBox="0 0 1100 900" width={500} height={350} />
                 </div>
             </div>
 

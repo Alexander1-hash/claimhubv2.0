@@ -25,7 +25,7 @@ function Blog() {
                 <div className="blog-title-section">
 
                     <div className="blog-title">
-                        <h1>Articles</h1>
+                        <h1>Blog</h1>
                     </div>
 
                     {/* <div className="blog-paragraph">
@@ -36,29 +36,26 @@ function Blog() {
                 <div className="blog-card-area">
                     <div className="blog-cards">
                         <div className="blog-card">
-                            <div className="blog-image">
-                                <img src={img1} alt="aeroplane" />
-                            </div>
-                            <div className="blog-heading"><h2>Flight delays</h2></div>
-                            <div className="blog-description">Brits have Millions in unclaimed money from flight delays say myles mcmillan</div>
+
+                            {/*<div className="blog-image"><img className="first-image" src={img1} alt="aeroplane" />*/}
+
+                            <div className="blog-heading"><h3>Lewisham council holidng £8.7million in overpaid council tax</h3></div>
+                            <div className="blog-description">London News Online</div>
                             <div className="blog-btn"><button onClick={handleClick1}>Read More</button></div>
                         </div>
                         <div className="blog-card">
-                            <div className="blog-image"><img src={img2} alt="aeroplane" /></div>
-                            <div className="blog-heading"><h2>Flight delays</h2></div>
-                            <div className="blog-description">Brits have Millions in unclaimed money from flight delays say myles mcmillan</div>                                                    <div className="blog-btn"><button onClick={handleClick2}>Read More</button></div>
+                            {/*<div className="blog-image"><img className="second-image" src={img2} alt="aeroplane" /></div>*/}
+                            <div className="blog-heading"><h3>Its been estimated that some of the UK's largest energy suppliers are sat on an excess of £1.8billion woth of consumer credit</h3></div>
+                            <div className="blog-description"><p>Manchester Evening News</p></div>
+                            <div className="blog-btn"><button onClick={handleClick2}>Read More</button></div>
                         </div>
                         <div className="blog-card">
-                            <div className="blog-image"><img src={img3} alt="aeroplane" /></div>
-                            <div className="blog-heading"><h2>Flight delays</h2></div>
-                            <div className="blog-description">Brits have Millions in unclaimed money from flight delays say myles mcmillan</div>
-                            <div className="blog-btn"><button onClick={handleClick3}>Read More</button></div>
+                            {/*<div className="blog-image"><img className="third-image" src={img3} alt="aeroplane" /></div>*/}
+                            <div className="blog-heading"><h3>Student  Loans Company holds £18.3million in overpayments amde since 2015</h3></div>
+                            <div className="blog-description">The Gaurdian</div>
+                            <div className="blog-btn"><button className="btn-btn" onClick={handleClick3}>Read More</button></div>
                         </div>
 
-                    </div>
-
-                    <div className="read-more-btn">
-                        <button>Blog</button>
                     </div>
 
                 </div>
