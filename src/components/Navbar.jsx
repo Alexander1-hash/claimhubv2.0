@@ -52,7 +52,6 @@ function Navbar() {
                                 <li className="menu-item menu-item-has-children">
                                     <a href="#" data-toggle="sub-menu">Types of Claims <i className="plus"></i></a>
                                     <ul className="sub-menu">
-                                        <li className="menu-item"><a href="/businessrates">Business Rates</a></li>
                                         <li className="menu-item"><a href="/counciltax">Council Tax</a></li>
                                         <li className="menu-item"><a href="/businessrates">Student Loans</a></li>
                                         <li className="menu-item"><a href="/thameswater">Utilities</a></li>

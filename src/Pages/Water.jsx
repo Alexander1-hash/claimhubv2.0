@@ -1,15 +1,16 @@
 import React from 'react'
 import '../stylesheet/Water.css'
-import work from '../assets/mission.png'
+import bills from '../assets/bills.svg'
 
 function Water() {
     return (
         <div className="water-container">
             <div className="water-info">
+                <div className="water-title">
+                    <h1>Utilities</h1>
+                </div>
                 <div className="water-section1">
-                    <div className="water-title">
-                        <h1>Utilities</h1>
-                    </div>
+
 
                     <div className="water-text">
 
@@ -20,7 +21,7 @@ function Water() {
                         <p>If you have ever paid for a utility bill and believe that you could be owed a refund, even if you still live in the property today, then follow the 'start my claim' button below and register with us, so we can manage the process on your behalf.</p>
                     </div>
                     <div className="water-img">
-                        <img src={work} alt="work" />
+                        <img src={bills} alt="work" />
                     </div>
                 </div>
 

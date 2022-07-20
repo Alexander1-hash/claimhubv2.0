@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.contact-text {
+  color: #80b8fe;
+}
+
 .contact-form-container {
   display: flex;
   flex-direction: row-reverse;

@@ -24,10 +24,13 @@ function About() {
                             <a href='/aboutus'><button className="about-btn">About Us</button></a>
                         </div>
                         <div className="about-image"><img src={team} alt="business" /></div>
+
                     </div>
 
                 </section>
+
             </div>
+
         </div>
     )
 }

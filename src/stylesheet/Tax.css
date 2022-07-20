@@ -6,6 +6,10 @@
   padding: 5rem 0;
   color: #80b8fe;
 }
+.tax-section1 {
+  display: flex;
+  flex-direction: row;
+}
 .tax-title {
   padding: 2rem 0;
   text-decoration: underline;

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .mission-wrapper {
   padding: 5rem;
@@ -59,6 +60,25 @@
 .mission-btn:hover {
   background-color: white;
   color: #80b8fe;
+}
+.type-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.type-wave svg {
+  position: relative;
+  display: block;
+  width: calc(173% + 1.3px);
+  height: 215px;
+}
+
+.type-wave .shape-fill {
+  fill: #ffffff;
 }
 .mission-image > img {
   width: 100%;

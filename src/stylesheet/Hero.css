@@ -140,6 +140,26 @@
 .star-reviews {
   margin-bottom: 2.5rem;
 }
+.home-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.home-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+.home-wave .shape-fill {
+  fill: #ffffff;
+}
 @media screen and (max-width: 980px) {
   .hero-image > img {
     display: none;
