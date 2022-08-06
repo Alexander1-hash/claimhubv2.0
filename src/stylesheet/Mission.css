@@ -36,7 +36,7 @@
 .claimtypes-list {
   margin-left: 0.5rem;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 20px;
   display: block;
   list-style-type: disc;
 }
@@ -92,11 +92,39 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 21px;
   }
   .mission-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+  }
+  .mission-content > p {
+    font-size: 30px;
+  }
+
+  .claimtypes-list {
+    font-size: 21px;
+  }
+
+  .mission-image > img {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mission-title {
+    text-align: center;
+  }
+  .mission-content {
+    font-size: 20px;
+  }
+  .mission-content > p {
+    font-size: 22px;
+  }
+
+  .claimtypes-list {
+    font-size: 16px;
   }
 }

@@ -39,6 +39,12 @@
   width: 20rem;
   height: 20rem;
 }
+@media screen and (max-width: 900px) {
+  .loans-section1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 600px) {
   .loans-text {
     margin: 0;

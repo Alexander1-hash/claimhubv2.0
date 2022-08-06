@@ -11,9 +11,9 @@
 
 .fees-text > p {
   width: 100%;
-  font-size: 20px;
+  font-size: 25px;
   margin: 5px;
-  text-align: justify;
+  text-align: center;
 }
 .fees-section1 {
   display: flex;
@@ -40,25 +40,19 @@
   color: #80b8fe;
   padding: 5.5rem;
 }
-.box-section {
-  display: flex;
-  flex-direction: row;
+@media screen and (max-width: 900px) {
+  .fees-img > img {
+    display: none;
+  }
 }
-
-.box-info {
-  width: 33.33%;
-  border: 1px solid black;
-  padding: 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-  border-radius: 10px 100px / 120px;
-  transition: 0.3s;
-}
-
 @media screen and (max-width: 600px) {
   .fees-text {
     margin: 0;
   }
   .fees-text > p {
     font-size: 25px;
+  }
+  .fees-text > p {
+    text-align: center;
   }
 }

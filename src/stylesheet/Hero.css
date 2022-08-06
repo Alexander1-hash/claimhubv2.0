@@ -106,27 +106,27 @@
 
 .company1 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 .company2 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 .company3 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 .company4 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 .company5 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 .company6 {
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .hero-reviews {
@@ -226,5 +226,9 @@
   }
   .green-btn {
     width: 100%;
+  }
+
+  .star-reviews {
+    display: none;
   }
 }

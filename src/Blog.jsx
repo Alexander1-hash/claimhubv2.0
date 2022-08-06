@@ -51,7 +51,7 @@ function Blog() {
                         </div>
                         <div className="blog-card">
                             {/*<div className="blog-image"><img className="third-image" src={img3} alt="aeroplane" /></div>*/}
-                            <div className="blog-heading"><h3>Student  Loans Company holds £18.3million in overpayments amde since 2015</h3></div>
+                            <div className="blog-heading"><h3>Student  Loans Company holds £18.3million in overpayments made since 2015</h3></div>
                             <div className="blog-description">The Gaurdian</div>
                             <div className="blog-btn"><button className="btn-btn" onClick={handleClick3}>Read More</button></div>
                         </div>

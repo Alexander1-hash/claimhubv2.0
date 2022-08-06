@@ -37,7 +37,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: stretch;
   gap: 1rem;
   margin: 2rem 0;
 }
@@ -51,21 +50,18 @@ html {
   border-radius: 10px;
   padding: 0.5rem;
   width: 300px;
-  height: 400px;
-  position: relative;
 }
 
 .blog-btn > button {
   background-color: #80b8fe;
   border-radius: 0.5rem;
   border: 1px solid white;
-  display: inline-block;
+  display: flex;
   cursor: pointer;
   color: #fff;
   font-size: 17px;
   padding: 10px 20px;
   text-decoration: none;
-  position: absolute;
   bottom: 10px;
 }
 .blog-btn > button:hover {

@@ -16,7 +16,7 @@ function Hero() {
             <div className="hero-content">
                 <div className="hero-info">
                     <div className="hero-title">
-                        <h1>Think you could be owed money<br /> and need help with a claim?</h1>
+                        <h1>Think you could be owed money & need help with a claim?</h1>
                     </div>
                     <p>ClaimHub is the one stop shop solution for all claims. Whether it be an overpayment or money you never knew you were entitled to, our mission is to identify money owed to you by Corporations and Public Bodies, and reclaim it on your behalf.</p>
                     <div className="hero-btns">

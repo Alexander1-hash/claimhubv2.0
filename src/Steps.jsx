@@ -15,18 +15,13 @@ function Steps() {
             <div className="steps-wrapper">
                 <div className="steps-content">
                     <div className="steps-title">
-                        <h1>How it works in a few simple steps</h1>
-                        <p>you can start a claim in just a few easy steps</p>
+                        <h1>How it works in a few simple steps:</h1>
                     </div>
                     < div className="steps-list">
                         <div className=" step-box step-1">
                             <div className="step-text">
                                 <h3>Register</h3>
-
                                 <p> <IoMdCheckmarkCircleOutline /> Via our online application form</p>
-                                <p><IoMdCheckmarkCircleOutline /> Personal information required</p>
-                                <p><IoMdCheckmarkCircleOutline /> claim information required</p>
-                                <div className="-claim-btn"></div>
                             </div>
                         </div>
                         <div className=" step-box step-2">

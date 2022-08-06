@@ -59,18 +59,15 @@ function Navbar() {
                                     </ul>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="#blog">Blog</a>
-                                </li>
-                                <li className="menu-item">
                                     <a href="contact">Contact</a>
                                 </li>
                             </div>
                             <li className="menu-item">
-                                <a className='referal' href="#">Refer A Friend</a>
+                                <a className='referal' href="contact">Refer A Friend</a>
                             </li>
 
                             <li className="menu-item">
-                                <a href='/form'><button className='menu-green-btn'>START YOUR CLAIM</button></a>
+                                <a href='contact'><button className='menu-green-btn'>START YOUR CLAIM</button></a>
                             </li>
 
                         </ul>

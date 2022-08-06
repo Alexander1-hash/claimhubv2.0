@@ -79,12 +79,18 @@
 }
 
 .box-info {
-  width: 33.33%;
   border: 1px solid black;
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
   border-radius: 10px 100px / 120px;
   transition: 0.3s;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .box-info:hover {
@@ -96,11 +102,31 @@
   margin-top: 1.5rem;
 }
 
+@media screen and (max-width: 900px) {
+  .aboutus-section1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .left-aboutus {
+    width: 100%;
+  }
+
+  .box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 600px) {
   .aboutus-text {
     margin: 0;
   }
   .aboutus-text > p {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .box-info .box-section1 {
   }
 }

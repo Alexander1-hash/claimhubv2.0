@@ -17,7 +17,7 @@ function AboutUs() {
                         </div>
                         <div className="aboutus-text">
                             <p>
-                                Across both the Public and Private sectors, there are billions of £'s which remain unreturned by organisation's in receipt of credits, and unclaimed by those due refunds. Despite a responsibility to inform and refund overpayments to customers, organisation's don't always do so, and when they do, it isn't always in a timely manner, in some cases even imposing restrictions on refunds past statutory limitations. Customers are often left in the dark and it is only when they are informed that there may be a credit on account would they ask for a refund..</p>
+                                Across both the Public and Private sectors, there are billions of £'s which remain unreturned by organisation's in receipt of credits, and unclaimed by those due refunds. Despite a responsibility to inform and refund overpayments to customers, organisation's don't always do so, and when they do, it isn't always in a timely manner, in some cases even imposing restrictions on refunds past statutory limitations. Customers are often left in the dark and it is only when they are informed that there may be a credit on account would they ask for a refund.</p>
 
 
                         </div>

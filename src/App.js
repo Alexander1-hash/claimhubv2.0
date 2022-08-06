@@ -11,6 +11,8 @@ import Deposits from "./Pages/Deposits";
 import Tax from "./Pages/Tax";
 import Fees from "./Pages/Fees";
 import Contact from "./Pages/Contact";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -33,6 +35,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      <ToastContainer />
     </div>
   );
 }

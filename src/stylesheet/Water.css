@@ -38,7 +38,12 @@
   width: 20rem;
   height: 20rem;
 }
-
+@media screen and (max-width: 900px) {
+  .water-section1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 600px) {
   .water-text {
     margin: 0;

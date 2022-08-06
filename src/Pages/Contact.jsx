@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import mail from "../assets/mail.svg";
 import contactimage from "../assets/contact-image.svg"
 import "../stylesheet/contact.css"
+import emailjs from '@emailjs/browser';
+import { toast } from "react-toastify"
 
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_yk1qj2g', 'template_mfe71rl', form.current, 'iwzs9Pp8GdeiU79qe')
+            .then((result) => {
+                console.log(result.text);
+                toast.success('Message sent')
+            }, (error) => {
+                console.log(error.text);
+            }
+            );
+
+        e.target.reset();
+    };
+
     return (
         <div className="Contact-container">
             <div className="contact-title">
@@ -14,9 +33,9 @@ function Contact() {
                 <div className="contact-form-image">
                     <img src={contactimage} alt="" />
                 </div>
-                <form className="contact-form">
+                <form className="contact-form" ref={form} onSubmit={sendEmail}>
                     <div className="contact-text">
-                        <h2>Get in touch with our experts today</h2>
+                        <h2>Get in touch with our team today!</h2>
                     </div>
 
 
@@ -44,7 +63,7 @@ function Contact() {
 
                     />
 
-                    <textarea className="message-area" id="message" placeholder="Enter message here..."></textarea>
+                    <textarea className="message-area" name="message" id="message" placeholder="Enter message here..."></textarea>
 
                     <button className="send-btn" type="submit">Send Message</button>
 
