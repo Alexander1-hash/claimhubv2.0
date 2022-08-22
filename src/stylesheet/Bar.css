@@ -9,6 +9,7 @@
   font-size: 50px;
   height: 100vh;
   margin: 0 2.5rem;
+  background-color: #80b8fe;
 }
 
 .burger-item > button {
@@ -50,13 +51,11 @@
   }
 }
 @media (min-width: 1117px) {
-  .burger-nav {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1112px) {
   .burger-item .burger-item-has-children > a {
+    margin-top: 2rem;
     font-size: medium;
     text-decoration: none;
     color: #fff;
@@ -64,6 +63,8 @@
 
   .burger-nav {
     margin-right: 18rem;
+
+    margin-top: 3rem;
   }
 }
 

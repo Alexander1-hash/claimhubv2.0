@@ -39,7 +39,7 @@
   width: 20rem;
   height: 20rem;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1150px) {
   .loans-section1 {
     display: flex;
     flex-direction: column;

@@ -25,8 +25,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<EvidenceForm />} />
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/businessrates" element={<Loans />} />
-          <Route path="/thameswater" element={<Water />} />
+          <Route path="/studentloans" element={<Loans />} />
+          <Route path="/utilities" element={<Water />} />
           <Route path="/energyprovider" element={<Provider />} />
           <Route path="/tenantdeposits" element={<Deposits />} />
           <Route path="/counciltax" element={<Tax />} />

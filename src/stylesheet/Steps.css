@@ -25,6 +25,11 @@
   margin: rem 0;
 }
 
+.steps-content > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .step-box {
   border: 1px solid black;
   padding: 1.5rem;

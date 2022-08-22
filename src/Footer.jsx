@@ -3,12 +3,14 @@ import React from "react";
 import { useScroll } from "./components/useScroll.jsx";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { SiTrustpilot } from "react-icons//si"
 import { ImLocation } from "react-icons/im";
-import { AiFillInstagram, AiFillLinkedin, AiOutlineSend } from "react-icons/ai";
+import { AiFillInstagram, AiFillLinkedin, AiOutlineSend, AiFillTrustpilot } from "react-icons/ai";
 import { motion } from "framer-motion";
 import "./stylesheet/Footer.css"
+import { Document, Page } from 'react-pdf';
 import { fromUp, fromDown } from "./utils/Animations.js";
-
+import samplePDF from './assets/Key Facts & Terms of Engagement.pdf'
 function Footer() {
     const [element, controls] = useScroll();
 
@@ -23,16 +25,21 @@ function Footer() {
                         transition={{ duration: 0.5 }}
                     >
                         <div className="footer-logo">
-                            CLAIMHUB
+                            <h3>CLAIMHUB</h3>
                         </div>
                         <ul>
+                            <li><a href="https://drive.google.com/drive/folders/1d5TJGFovYVC3Dh5I-H8fzPsRmxfRiLXi"> Terms of Engagement</a></li>
+                        </ul>
+
+
+                        {/*<ul>
                             <li>
                                 <a href="/">Terms & Conditions</a>
                             </li>
                             <li>
                                 <a href="/">Privacy Policy</a>
                             </li>
-                        </ul>
+                        </ul>*/ }
 
                         {/* <p>
                             Join our newsletter to get updated with our Offers & Discounts.
@@ -53,13 +60,10 @@ function Footer() {
                         <h3>Claim Types</h3>
                         <ul>
                             <li>
-                                <a href="/">Business Rates</a>
+                                <a href="/counciltax">Council Tax</a>
                             </li>
                             <li>
-                                <a href="/">Council Tax</a>
-                            </li>
-                            <li>
-                                <a href="/">Student Loans</a>
+                                <a href="/studentloans">Student Loans</a>
                             </li>
                             <li>
                                 <a href="/">Utilities</a>
@@ -76,10 +80,10 @@ function Footer() {
                         <h3>Get Started</h3>
                         <ul>
                             <li>
-                                <a href="/">Start a claim</a>
+                                <a href="/contact">Start a claim</a>
                             </li>
                             <li>
-                                <a href="/">Refer a friend</a>
+                                <a href="/contact">Refer a friend</a>
                             </li>
 
 
@@ -126,24 +130,23 @@ function Footer() {
                     >
                         <div className="icons">
                             <div className="icon">
-                                <a href="/">
+                                <a href="https://www.facebook.com/profile.php?id=100083267440374">
                                     <FaFacebookF />
                                 </a>
                             </div>
                             <div className="icon">
-                                <a href="/">
+                                <a href="https://instagram.com/claimhub.io?igshid=YmMyMTA2M2Y=">
                                     <AiFillInstagram />
                                 </a>
                             </div>
                             <div className="icon">
-                                <a href="/">
+                                <a href="https://www.linkedin.com/company/claimhubhq/">
                                     <AiFillLinkedin />
                                 </a>
                             </div>
                             <div className="icon">
-                                <a href="/">
-                                    {" "}
-                                    <FaTwitter />
+                                <a href="https://uk.trustpilot.com/review/claimhub.io">
+                                    <SiTrustpilot />
                                 </a>
                             </div>
                         </div>
@@ -152,7 +155,7 @@ function Footer() {
 
                 <div className="copyright">
                     <div className="copy">
-                        <p>Copyright c 2021. All Rights Reserved.</p>
+                        <p>Copyright © 2022. All Rights Reserved.</p>
                     </div>
 
                 </div>

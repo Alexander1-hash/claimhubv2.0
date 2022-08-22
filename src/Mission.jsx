@@ -17,11 +17,11 @@ function Mission() {
                 <section className="mission-section">
 
                     <div className="mission-title">
-                        <h1>Types of Claim</h1>
+                        <h1>Claim Types</h1>
                     </div>
                     <div className="mission-info">
                         <div className="mission-content">
-                            <h2>One stop shop for all of your claims</h2>
+                            <h2>One stop shop for all your claims</h2>
 
                             <p>We manage a number of different claim types for our clients, including the following:</p>
                             <div className="claimtypes-list">
@@ -35,7 +35,7 @@ function Mission() {
                             </div>
 
 
-                            <a href="/aboutus"><button className="mission-btn">CLAIMHUB</button></a>
+                            <a href="/counciltax"><button className="mission-btn">CLAIMHUB</button></a>
                         </div>
                         <div className="mission-image"><img src={target} alt="business" /></div>
                     </div>

@@ -37,13 +37,12 @@
 
 textarea {
   min-height: 8em;
-  min-width: 100%;
+  max-width: 100%;
   padding: 0.5em;
   border: solid 1px black;
   border-radius: 0.5rem;
 }
 .contact-input {
-  width: 100%;
   padding: 0.5em;
   border: solid 1px black;
   border-radius: 0.5rem;
@@ -53,12 +52,17 @@ textarea {
   background-color: white;
   border-radius: 0.5rem;
   border: 1px solid #80b8fe;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   color: #80b8fe;
   font-size: 17px;
-  padding: 10px 50px;
+  padding: 0.5em;
   text-decoration: none;
+}
+
+.button.send-btn {
+  padding: 00.5em;
 }
 
 .send-btn:hover {

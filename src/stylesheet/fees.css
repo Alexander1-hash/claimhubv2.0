@@ -5,15 +5,19 @@
   margin: 4rem 0;
 }
 
-.fees-title {
-  margin-bottom: 2rem;
-}
-
 .fees-text > p {
   width: 100%;
   font-size: 25px;
   margin: 5px;
   text-align: center;
+}
+.fees-title {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #80b8fe;
+  text-decoration: underline;
 }
 .fees-section1 {
   display: flex;

@@ -7,7 +7,6 @@ import { toast } from "react-toastify"
 
 function Contact() {
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -42,8 +41,9 @@ function Contact() {
                     <input className="contact-input contact-name"
                         type="text"
                         placeholder="Name"
-                        name="name"
+                        name="username"
                         id="name"
+                        required
 
                     />
 
@@ -52,6 +52,7 @@ function Contact() {
                         placeholder="Email"
                         name="email"
                         id="email"
+                        required
 
                     />
 
@@ -60,10 +61,13 @@ function Contact() {
                         placeholder="Phone Number"
                         name="mobile"
                         id="mobile"
+                        required
+
 
                     />
 
-                    <textarea className="message-area" name="message" id="message" placeholder="Enter message here..."></textarea>
+                    <textarea className="message-area" name="message" id="message" placeholder="Enter message here...">
+                    </textarea>
 
                     <button className="send-btn" type="submit">Send Message</button>
 

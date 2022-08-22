@@ -13,7 +13,7 @@ function Blog() {
         window.open("https://www.manchestereveningnews.co.uk/news/uk-news/millions-brits-warned-energy-bills-20493095");
     };
     const handleClick3 = () => {
-        window.open("https://londonnewsonline.co.uk/lewisham-council-holding-8-7million-in-overpaid-council-tax/");
+        window.open("https://www.theguardian.com/money/2021/may/05/student-loans-company-holds-overpayments");
     };
 
     return (
@@ -39,20 +39,20 @@ function Blog() {
 
                             {/*<div className="blog-image"><img className="first-image" src={img1} alt="aeroplane" />*/}
 
-                            <div className="blog-heading"><h3>Lewisham council holidng £8.7million in overpaid council tax</h3></div>
+                            <div className="blog-heading"><h3>Lewisham council holding £8.7million in overpaid council tax</h3></div>
                             <div className="blog-description">London News Online</div>
                             <div className="blog-btn"><button onClick={handleClick1}>Read More</button></div>
                         </div>
                         <div className="blog-card">
                             {/*<div className="blog-image"><img className="second-image" src={img2} alt="aeroplane" /></div>*/}
-                            <div className="blog-heading"><h3>Its been estimated that some of the UK's largest energy suppliers are sat on an excess of £1.8billion woth of consumer credit</h3></div>
+                            <div className="blog-heading"><h3>Its been estimated that some of the UK's largest energy suppliers are sat on an excess of £1.8billion worth of consumer credit</h3></div>
                             <div className="blog-description"><p>Manchester Evening News</p></div>
                             <div className="blog-btn"><button onClick={handleClick2}>Read More</button></div>
                         </div>
                         <div className="blog-card">
                             {/*<div className="blog-image"><img className="third-image" src={img3} alt="aeroplane" /></div>*/}
                             <div className="blog-heading"><h3>Student  Loans Company holds £18.3million in overpayments made since 2015</h3></div>
-                            <div className="blog-description">The Gaurdian</div>
+                            <div className="blog-description">The Guardian</div>
                             <div className="blog-btn"><button className="btn-btn" onClick={handleClick3}>Read More</button></div>
                         </div>
 

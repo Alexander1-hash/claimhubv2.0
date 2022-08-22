@@ -53,8 +53,8 @@ function Navbar() {
                                     <a href="#" data-toggle="sub-menu">Types of Claims <i className="plus"></i></a>
                                     <ul className="sub-menu">
                                         <li className="menu-item"><a href="/counciltax">Council Tax</a></li>
-                                        <li className="menu-item"><a href="/businessrates">Student Loans</a></li>
-                                        <li className="menu-item"><a href="/thameswater">Utilities</a></li>
+                                        <li className="menu-item"><a href="/studentloans">Student Loans</a></li>
+                                        <li className="menu-item"><a href="/utilities">Utilities</a></li>
 
                                     </ul>
                                 </li>

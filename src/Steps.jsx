@@ -15,7 +15,7 @@ function Steps() {
             <div className="steps-wrapper">
                 <div className="steps-content">
                     <div className="steps-title">
-                        <h1>How it works in a few simple steps:</h1>
+                        <h1>How it works:</h1>
                     </div>
                     < div className="steps-list">
                         <div className=" step-box step-1">
@@ -39,7 +39,7 @@ function Steps() {
                             </div>
                         </div>
                     </div>
-                    <div className="step-claim-btn"><button>START YOUR CLAIM</button></div>
+                    <a href='contact'><button className="green-btn">START YOUR CLAIM</button></a>
                 </div>
             </div>
         </div>

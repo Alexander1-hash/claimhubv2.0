@@ -8,13 +8,14 @@
   align-items: center;
   height: 100vh;
   color: #fff;
+  position: relative;
 }
 
 .hero-wrapper {
 }
 
 .hero-info {
-  width: 100%;
+  width: 50%;
 }
 
 .hero-title {
@@ -28,15 +29,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  gap: 4rem;
+  padding: 1.5rem;
 }
 
 .hero-image {
   border-radius: 10px;
-}
-.hero-info {
-  margin-left: 50px;
 }
 
 .hero-info > p {
@@ -86,11 +83,9 @@
 }
 
 .star-reviews {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
-  padding: 1rem;
-  gap: 1.25rem;
 }
 
 .star-label > h2 {
@@ -101,7 +96,7 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .company1 {
@@ -136,9 +131,10 @@
   align-items: center;
   justify-content: center;
   width: 50%;
+  gap: 0.09rem;
 }
 .star-reviews {
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.8rem;
 }
 .home-wave {
   position: absolute;
@@ -160,7 +156,45 @@
 .home-wave .shape-fill {
   fill: #ffffff;
 }
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 1067px) {
+  .hero-info {
+    width: 100%;
+  }
+  .stars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    font-size: small;
+  }
+  .company1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+  .company2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+  .company3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+  .company4 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+  .company5 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+  .company6 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
   .hero-image > img {
     display: none;
   }
@@ -190,13 +224,6 @@
     align-items: center;
     align-content: center;
   }
-  .stars {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
 }
 
 @media screen and (max-width: 830px) {
@@ -212,6 +239,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 550px) {
