@@ -15,6 +15,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import UserForm from "./components/UserForm";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/counciltax" element={<Tax />} />
           <Route path="/fees" element={<Fees />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/claimform" element={<UserForm />} />
         </Routes>
         <Footer />
       </Router>

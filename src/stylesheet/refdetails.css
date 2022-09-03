@@ -1,0 +1,60 @@
+.referencedetail-form {
+  padding: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #80b8fe;
+}
+
+.referencedetail-form > input {
+  padding: 0.5em;
+  border: solid 1px black;
+  border-radius: 0.5rem;
+  font-size: 30px;
+  width: 50%;
+}
+
+.ref-btn-group {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ref-btn {
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #80b8fe;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #80b8fe;
+  font-size: 17px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.ref-btn:hover {
+  background-color: #80b8fe;
+  border: 1px solid #80b8fe;
+  color: #fff;
+}
+
+.backform-btn {
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+
+  font-size: 17px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.backform-btn:hover {
+  color: darkgray;
+}

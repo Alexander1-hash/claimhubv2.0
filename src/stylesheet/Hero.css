@@ -239,15 +239,15 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
-    font-size: 15px;
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 550px) {
   .hero-title > h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .hero-info > p {
-    font-size: 16px;
+    font-size: 20px;
   }
   .hero-info {
     text-align: center;
